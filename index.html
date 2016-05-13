@@ -1,0 +1,33 @@
+<!DOCTYPE HTML>
+<html><head><meta charset="UTF-8"><title>Happy Birthday Steve!</title><style>html,head,body { padding:0; margin:0; }
+body { font-family: calibri, helvetica, arial, sans-serif; }</style><script type="text/javascript">
+
+      var quotes = ["He's a strong and hardworking man that puts the wants and needs of family and friends before his own., -- Dad", "What I love most about Steven is how giving he is to his family and anyone he cares about. -- Keri", "Stevens a great dude. Will do anything for you. Great dad, brother and friend. Steven once road a unicycle around the block three times. I can really appreciate his dedication to any kraft, hobby or challenge put in front of him. He takes the bull by its horn and gives it hell! -- Scott" ];
+      
+      function getRanQ() {
+        return (Math.floor (0 + Math.random() * quotes.length));
+      }      
+    </script>
+
+    <style>
+      body {
+      background-color: lightgray;
+      }
+      
+      div {
+      width: 300px;
+      padding: 25px;
+      border: 25px solid black;
+      margin: 25px;
+      margin-left: auto ;
+      margin-right: auto ;
+      }
+    </style>
+  </head>
+<body>
+  <br><br><br>
+  <div id="quote"></div>
+
+  <script>document.getElementById("quote").innerHTML = quotes[getRanQ()];</script>
+  
+</body></html>
